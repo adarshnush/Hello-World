@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9064552B18B89D250065EC45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9064552A18B89D250065EC45 /* Foundation.framework */; };
-		9064552D18B89D250065EC45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9064552C18B89D250065EC45 /* CoreGraphics.framework */; };
+		9064552D18B89D250065EC45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9064552C18B89D250065EC45 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		9064552F18B89D250065EC45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9064552E18B89D250065EC45 /* UIKit.framework */; };
 		9064553118B89D250065EC45 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9064553018B89D250065EC45 /* CoreData.framework */; };
 		9064553718B89D250065EC45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9064553518B89D250065EC45 /* InfoPlist.strings */; };
@@ -411,7 +411,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello World/Hello World-Prefix.pch";
 				INFOPLIST_FILE = "Hello World/Hello World-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -424,7 +426,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello World/Hello World-Prefix.pch";
 				INFOPLIST_FILE = "Hello World/Hello World-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -490,6 +494,7 @@
 				9064556718B89D250065EC45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9064556818B89D250065EC45 /* Build configuration list for PBXNativeTarget "Hello WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +503,7 @@
 				9064556A18B89D250065EC45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
